@@ -33,4 +33,14 @@ public class CalculatorTest {
     public void testDivisionByZero() {
         cal.division(5, 0);
     }
+	
+	@Test
+	public void square() {
+		Assert.assertEquals(cal.square(16), 256.0);
+	}
+	
+	@Test
+	public void squareRoot() {
+		Assert.assertEquals(cal.squareRoot(16), 4.0);
+	}
 }

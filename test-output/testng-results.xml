@@ -1,29 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-25T00:11:15 IST" name="Suite" finished-at="2026-03-25T00:11:15 IST" duration-ms="68">
+  <suite started-at="2026-03-25T09:54:31 IST" name="Default suite" finished-at="2026-03-25T09:54:31 IST" duration-ms="74">
     <groups>
     </groups>
-    <test started-at="2026-03-25T00:11:15 IST" name="Test" finished-at="2026-03-25T00:11:15 IST" duration-ms="68">
+    <test started-at="2026-03-25T09:54:31 IST" name="Default test" finished-at="2026-03-25T09:54:31 IST" duration-ms="74">
       <class name="calculatorTests.CalculatorTest">
-        <test-method signature="add()[pri:0, instance:calculatorTests.CalculatorTest@3a93b025]" started-at="2026-03-25T00:11:15 IST" name="add" finished-at="2026-03-25T00:11:15 IST" duration-ms="11" status="PASS">
+        <test-method signature="add()[pri:0, instance:calculatorTests.CalculatorTest@7e07db1f]" started-at="2026-03-25T09:54:31 IST" name="add" finished-at="2026-03-25T09:54:31 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- add -->
-        <test-method signature="divide()[pri:0, instance:calculatorTests.CalculatorTest@3a93b025]" started-at="2026-03-25T00:11:15 IST" name="divide" finished-at="2026-03-25T00:11:15 IST" duration-ms="1" status="PASS">
+        <test-method signature="divide()[pri:0, instance:calculatorTests.CalculatorTest@7e07db1f]" started-at="2026-03-25T09:54:31 IST" name="divide" finished-at="2026-03-25T09:54:31 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- divide -->
-        <test-method signature="multiply()[pri:0, instance:calculatorTests.CalculatorTest@3a93b025]" started-at="2026-03-25T00:11:15 IST" name="multiply" finished-at="2026-03-25T00:11:15 IST" duration-ms="3" status="PASS">
+        <test-method signature="multiply()[pri:0, instance:calculatorTests.CalculatorTest@7e07db1f]" started-at="2026-03-25T09:54:31 IST" name="multiply" finished-at="2026-03-25T09:54:31 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multiply -->
-        <test-method signature="sub()[pri:0, instance:calculatorTests.CalculatorTest@3a93b025]" started-at="2026-03-25T00:11:15 IST" name="sub" finished-at="2026-03-25T00:11:15 IST" duration-ms="2" status="PASS">
+        <test-method signature="square()[pri:0, instance:calculatorTests.CalculatorTest@7e07db1f]" started-at="2026-03-25T09:54:31 IST" name="square" finished-at="2026-03-25T09:54:31 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- square -->
+        <test-method signature="squareRoot()[pri:0, instance:calculatorTests.CalculatorTest@7e07db1f]" started-at="2026-03-25T09:54:31 IST" name="squareRoot" finished-at="2026-03-25T09:54:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- squareRoot -->
+        <test-method signature="sub()[pri:0, instance:calculatorTests.CalculatorTest@7e07db1f]" started-at="2026-03-25T09:54:31 IST" name="sub" finished-at="2026-03-25T09:54:31 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sub -->
-        <test-method signature="testDivisionByZero()[pri:0, instance:calculatorTests.CalculatorTest@3a93b025]" started-at="2026-03-25T00:11:15 IST" name="testDivisionByZero" finished-at="2026-03-25T00:11:15 IST" duration-ms="1" status="PASS">
+        <test-method signature="testDivisionByZero()[pri:0, instance:calculatorTests.CalculatorTest@7e07db1f]" started-at="2026-03-25T09:54:31 IST" name="testDivisionByZero" finished-at="2026-03-25T09:54:31 IST" duration-ms="2" status="PASS">
           <exception class="java.lang.ArithmeticException">
             <message>
               <![CDATA[Cannot divide by zero]]>
@@ -65,6 +73,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </reporter-output>
         </test-method> <!-- testDivisionByZero -->
       </class> <!-- calculatorTests.CalculatorTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
